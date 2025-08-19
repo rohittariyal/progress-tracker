@@ -1,0 +1,34 @@
+{
+  "overallProgress": 42,
+  "phases": [
+    {
+      "key": "core",
+      "items": [
+        {
+          "name": "Multi-channel, multi-location inventory sync",
+          "status": "planned"
+        },
+        {
+          "name": "Automated restock logic & supplier PO creation",
+          "status": "inprogress"
+        },
+        {
+          "name": "Reconciliation engine for all sales channels",
+          "status": "inprogress"
+        },
+        {
+          "name": "Analytics + forecasting (SKU & category)",
+          "status": "planned"
+        },
+        {
+          "name": "Role-based access with custom dashboards",
+          "status": "done"
+        },
+        {
+          "name": "AI-assisted decision support (founders & HQ)",
+          "status": "planned"
+        }
+      ]
+    }
+  ]
+}
