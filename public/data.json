@@ -1,34 +1,101 @@
 {
-  "overallProgress": 42,
   "phases": [
     {
       "key": "core",
+      "icon": "rocket",
+      "title": "Core (Non-Negotiable)",
+      "color": "from-violet-500 via-cyan-500 to-emerald-500",
       "items": [
-        {
-          "name": "Multi-channel, multi-location inventory sync",
-          "status": "planned"
-        },
-        {
-          "name": "Automated restock logic & supplier PO creation",
-          "status": "inprogress"
-        },
-        {
-          "name": "Reconciliation engine for all sales channels",
-          "status": "inprogress"
-        },
-        {
-          "name": "Analytics + forecasting (SKU & category)",
-          "status": "planned"
-        },
-        {
-          "name": "Role-based access with custom dashboards",
-          "status": "done"
-        },
-        {
-          "name": "AI-assisted decision support (founders & HQ)",
-          "status": "planned"
-        }
+        { "name": "Multi-channel, multi-location inventory sync", "status": "planned" },
+        { "name": "Automated restock logic & supplier PO creation", "status": "inprogress" },
+        { "name": "Reconciliation engine for all sales channels", "status": "inprogress" },
+        { "name": "Analytics + forecasting (SKU & category)", "status": "planned" },
+        { "name": "Role-based access with custom dashboards", "status": "done" },
+ 
+        { "name": "Workspace settings (currency, TZ, regions, SLAs)", "status": "done" },
+        { "name": "Returns & RMA workflow", "status": "done" },
+        { "name": "Supplier management & PO integration", "status": "done" },
+        { "name": "Supplier SLA tracker & breach alerts", "status": "inprogress" },
+ 
+        { "name": "Customer management (CRM lite)", "status": "done" },
+        { "name": "Invoices & billing (generate + payments)", "status": "done" },
+ 
+        { "name": "AI-assisted decision support (founders & HQ)", "status": "planned" }
+      ]
+    },
+    {
+      "key": "delight",
+      "icon": "star",
+      "title": "Day-One Delight",
+      "color": "from-fuchsia-500 via-purple-500 to-pink-500",
+      "items": [
+        { "name": "Smart search across app", "status": "planned" },
+        { "name": "In-app scanner mode (mobile/tablet)", "status": "planned" },
+        { "name": "Drag-drop bulk uploads with inline validation", "status": "planned" },
+        { "name": "Custom notifications (Slack/Teams/WhatsApp)", "status": "inprogress" },
+        { "name": "Ask AI on any screen", "status": "planned" },
+        { "name": "Visual SKU timelines", "status": "planned" },
+ 
+        { "name": "Notifications 1.5 (SMTP + daily digest)", "status": "done" },
+        { "name": "Product notes & attachments (per SKU)", "status": "done" },
+        { "name": "Quick analytics cards (dashboard V1)", "status": "done" }
+      ]
+    },
+    {
+      "key": "damn",
+      "icon": "zap",
+      "title": "The “Damn” Layer",
+      "color": "from-amber-400 via-orange-500 to-red-500",
+      "items": [
+        { "name": "Shift & Task Mode for warehouse/store staff", "status": "planned" },
+        { "name": "Auto marketing assets from SKU data", "status": "planned" },
+        { "name": "Cross-department signal handoffs", "status": "planned" },
+        { "name": "AI leakage detection from recon history", "status": "planned" },
+        { "name": "Founder War-Room (live global view)", "status": "planned" }
+      ]
+    },
+    {
+      "key": "ecosystem",
+      "icon": "globe",
+      "title": "Long-Play Ecosystem",
+      "color": "from-cyan-500 via-sky-500 to-indigo-500",
+      "items": [
+        { "name": "Role kits (Warehouse, Store, Social, Finance)", "status": "planned" },
+        { "name": "Embedded marketplace intelligence", "status": "planned" },
+        { "name": "AI product development assistant", "status": "planned" },
+        { "name": "Supplier benchmarking & AI negotiations", "status": "planned" },
+        { "name": "One-click regional compliance reports", "status": "planned" }
       ]
     }
+  ],
+ 
+  "todayFocus": [
+    { "name": "Supplier SLA tracker & breach alerts", "status": "inprogress" },
+    { "name": "Analytics V1 (KPI tiles + 30d line)", "status": "queued" },
+    { "name": "Restock Autopilot – Lite+ (real suggest qty)", "status": "queued" },
+    { "name": "Reconciliation UX polish (export, notes, filter)", "status": "queued" }
+  ],
+ 
+  "recentlyShipped": [
+    "Customer management (CRM lite)",
+    "Invoices & billing (generate + payments)",
+    "Product notes & attachments (per SKU)",
+    "Quick analytics cards (dashboard V1)",
+ 
+    "Workspace settings (currency, TZ, regions, SLAs)",
+    "Notifications 1.5 (SMTP + daily digest)",
+    "Returns & RMA workflow",
+    "Supplier management & PO integration",
+ 
+    "Auth & roles",
+    "Dashboard shell (dark theme)",
+    "Alerts UI (bell + list + mark-as-read)",
+    "Action Center (event→task mapping)",
+    "Mock adapters + Inventory table",
+    "P1 notifications (webhook)",
+    "SLA/Overdue chips",
+    "Comments + Activity log + Auto-assign rules",
+    "PO creation from Inventory + PO list/detail",
+    "Inline PO status + Export CSV"
   ]
 }
